@@ -5,5 +5,7 @@ class Solution:
         for index_first in range(0,len(nums)):
             for index_second in range(0,len(nums)):
                 
-                if nums[index_first] + nums[index_second] == target:
-                    return [index_first, index_second]
+                if nums[index_first] != nums[index_second]:
+                    if nums[index_first] + nums[index_second] == target:
+                        return [index_first, index_second]
+                    
