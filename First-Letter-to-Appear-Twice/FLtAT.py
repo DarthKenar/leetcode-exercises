@@ -1,23 +1,20 @@
-
 class Solution:
     def repeatedCharacter(self, s: str) -> str:
 
-        
-        longitud_comprobacion = 0
-        cantidad_de_iteraciones = len(s)
+        length_checkout = 0
+        iteration_counter = len(s)
 
         
-        def comprobacion(s,longitud_comprobacion, cantidad_de_iteraciones):
+        def checkout(s,length_checkout, iteration_counter):
 
-            longitud_comprobacion += 1
-            cantidad_de_iteraciones -= 1
+            length_checkout += 1
+            iteration_counter -= 1
 
-            for i in range(0,cantidad_de_iteraciones):
+            for i in range(0,iteration_counter):
                 
-                #realizo comprobacion
-                if s[i] == s[i+longitud_comprobacion]:
+                if s[i] == s[i+length_checkout]:
                     return s[i]
 
-            comprobacion(s,longitud_comprobacion,cantidad_de_iteraciones)
+            return(checkout(s,length_checkout,iteration_counter))
 
-        comprobacion(s,longitud_comprobacion,cantidad_de_iteraciones)
+        return(checkout(s,length_checkout,iteration_counter))
