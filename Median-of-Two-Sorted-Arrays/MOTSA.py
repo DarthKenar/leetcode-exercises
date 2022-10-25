@@ -6,16 +6,16 @@ class Solution:
             nums1.append(nums2[i])
             
         nums1.sort()
-        longitud = len(nums1)
+        lenght = len(nums1)
         
-        if longitud == 1:
+        if lenght == 1:
             
             return nums1[0]
         
-        elif longitud % 2 == 0:
+        elif lenght % 2 == 0:
             
-            return ((nums1[int((longitud/2)-1)]+nums1[int(longitud/2)])/2)
+            return ((nums1[int((lenght/2)-1)]+nums1[int(lenght/2)])/2)
         
         else:
             
-            return (nums1[int(longitud//2)])
+            return (nums1[int(lenght//2)])
