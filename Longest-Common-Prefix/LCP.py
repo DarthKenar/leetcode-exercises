@@ -1,29 +1,29 @@
-from typing import List
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
-        respuesta = ""
-        length = (len(strs))
-        if length == 1:
-            return("")
-        #este for si es 6 va de 0 a 5
-        #esta perfecto
+        target = ""
+        size = (len(strs))
+        if size == 1:
+
+            return(strs[0])
+
         for j in range(0,(len(strs[0]))):
 
             counter = 0
-            #bien el for
-            for i in range(1,length):
+
+            for i in range(1,size):
 
                 if j < len(strs[i]):
+
                     if strs[0][j] == strs[i][j]:
+
                         counter +=1
 
-            if counter == length-1:
-                respuesta = respuesta + strs[0][j]
-            else:
-                return(respuesta)
-                break
-        return(respuesta)
+            if counter == size-1:
 
-lista = ["f","flo","flight"]
-solucion = Solution()
-print(solucion.longestCommonPrefix(lista))
+                target = target + strs[0][j]
+
+            else:
+
+                return(target)
+            
+        return(target)
