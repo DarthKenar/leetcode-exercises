@@ -1,8 +1,7 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-
+        
         if len(s) == 0: return 0
-
         substring = s[0]
         output = 0
         list_string = [s[0]]
@@ -24,5 +23,5 @@ class Solution:
             if len(i) > output:
 
                 output = len(i)
-                
+
         return(output)
