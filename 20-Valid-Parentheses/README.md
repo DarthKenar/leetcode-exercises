@@ -1,3 +1,8 @@
+VALID PARENTHESES
+-----------------------------------------------------------------------------------------
+Runtime: 48 ms, faster than 74.79% of Python3 online submissions for Valid Parentheses.
+Memory Usage: 13.8 MB, less than 98.20% of Python3 online submissions for Valid Parentheses.
+-----------------------------------------------------------------------------------------
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
 An input string is valid if:

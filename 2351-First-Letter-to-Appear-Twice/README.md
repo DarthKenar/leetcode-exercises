@@ -1,3 +1,14 @@
+FIRST LETTER TO APPEAR TWICE
+-----------------------------------------------------------------------------------------
+
+92 / 92 test cases passed.
+Status: Accepted
+Runtime: 32 ms
+Memory Usage: 13.9 MB
+Your runtime beats 93.15 % of python3 submissions
+Your memory usage beats 51.32 % of python3 submissions.
+
+-----------------------------------------------------------------------------------------
 Given a string s consisting of lowercase English letters, return the first letter to appear twice.
 
 Note:

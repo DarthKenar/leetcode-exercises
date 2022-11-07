@@ -1,3 +1,7 @@
+PALINDROME NUMBER
+-----------------------------------------------------------------------------------------
+10/24/2022 01:32	Accepted	96 ms	14 MB	python3
+-----------------------------------------------------------------------------------------
 Given an integer x, return true if x is palindrome integer.
 
 An integer is a palindrome when it reads the same backward as forward.

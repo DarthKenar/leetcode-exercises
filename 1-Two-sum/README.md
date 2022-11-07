@@ -1,3 +1,9 @@
+TWO SUM
+-------------------------------------------------------------------------------------------
+Runtime: 2540 ms, faster than 22.23% of Python3 online submissions for Two Sum.
+Memory Usage: 15 MB, less than 79.99% of Python3 online submissions for Two Sum.
+-------------------------------------------------------------------------------------------
+
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.

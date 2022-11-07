@@ -1,3 +1,7 @@
+FIRST UNIQUE CHARACTER IN A STRING
+-----------------------------------------------------------------------------------------
+11/07/2022 15:00	Accepted	6716 ms	14.1 MB	python3
+-----------------------------------------------------------------------------------------
 Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
 
  
